@@ -32,7 +32,7 @@ type Forecast struct {
 
 func GetForecastedCarbonIntensity(params Params) Response {
 
-	fmt.Println("Calling GetForecastedCarbonIntensity API...")
+	fmt.Println("Calling GetForecastedCarbonIntensity API.....")
 
 	client := &http.Client{}
 
